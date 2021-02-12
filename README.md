@@ -6,7 +6,7 @@ It prints the Dockerfile's base image and file path in this format: `<FILE PATH>
 
 # Sample Usage and Output
 ```
-./02-parent-images.py .
+$ ./02-parent-images.py .
 ./Dockerfile: alpine:3.12
 ./database/redis/cluster/Dockerfile: redis:5.9.11
 ./database/postgres/Dockerfile: postgres:14.5
